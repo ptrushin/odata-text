@@ -12,6 +12,7 @@ public class MainController : ODataController
     {
         return Ok(new List<Main> {
             new Main { Properties = new Properties { Property1 = "Ware1" } },
+            new Main { Properties = new Properties { Property1 = "Ware2" } },
         }.AsQueryable());
     }
 }
